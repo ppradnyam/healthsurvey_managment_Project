@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nearbyhospital.healthsurvey.displayActivity">
+
+    <Button
+        android:text="back to pincodeSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="153dp"
+        android:id="@+id/b10"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|bold"
+        android:background="@android:color/background_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:id="@+id/tv10"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold|italic"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:id="@+id/b102"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@android:color/background_light" />
+</RelativeLayout>
